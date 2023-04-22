@@ -1,0 +1,11 @@
+ int b1;
+     int h2;
+     int area;
+
+    Console.WriteLine("Digite sua base");
+    b1 = int.Parse(Console.ReadLine());
+    Console.WriteLine("Digite sua altura");
+    h2 = int.Parse(Console.ReadLine());
+    area = (b1*h2)/2;
+    Console.WriteLine("Resultado da area");
+    Console.WriteLine(area);
